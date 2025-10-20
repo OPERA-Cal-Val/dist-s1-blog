@@ -1,6 +1,6 @@
 +++
 author = "Charlie Marshak, Talib Oliver-Cabrera, Richard West"
-title = "The Los Angeles Fires 2025"
+title = "The Los Angeles Fires 2025 - preliminary take"
 date = "2025-10-19"
 description = "Wildfire of 2025"
 +++

@@ -35,15 +35,33 @@ jobs:
         hugo-version: 'latest'
         extended: true
 
-    - name: Build
+    - name: Build (main branch)
+      if: github.ref == 'refs/heads/main'
       run: |
-        hugo --minify
+        hugo --minify --baseURL https://opera-cal-val.github.io/dist-s1-blog/
         touch public/.nojekyll
 
-    - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/dev'
+    - name: Build (dev branch)
+      if: github.ref == 'refs/heads/dev'
+      run: |
+        hugo --minify --baseURL https://opera-cal-val.github.io/dist-s1-blog/test/
+        touch public/.nojekyll
+
+    - name: Deploy main to GitHub Pages root
+      if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_branch: gh-pages
         publish_dir: ./public
+        destination_dir: .
+
+    - name: Deploy dev to GitHub Pages /test/
+      if: github.ref == 'refs/heads/dev'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_branch: gh-pages
+        publish_dir: ./public
+        destination_dir: test
+        keep_files: true
