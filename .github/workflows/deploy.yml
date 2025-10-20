@@ -1,0 +1,62 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: 
+      - main
+      - dev
+  pull_request:
+    branches: 
+      - main
+      - dev
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Initialize Hugo theme submodule
+      run: |
+        git submodule update --init --remote themes/hugo-bearcub || {
+          git submodule deinit -f themes/hugo-coder
+          rm -rf themes/hugo-bearcub
+          git submodule add https://github.com/clente/hugo-bearcub.git themes/hugo-bearcub
+          git submodule update --init themes/hugo-bearcub
+        }
+
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v3
+      with:
+        hugo-version: 'latest'
+        extended: true
+
+    - name: Build
+      run: |
+        hugo --minify
+        touch public/.nojekyll
+
+    - name: Deploy to GitHub Pages (main branch)
+      if: github.ref == 'refs/heads/main'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        external_repository: OPERA-Cal-Val/OPERA-Cal-Val.github.io
+        publish_branch: gh-pages
+        publish_dir: ./public
+        destination_dir: dist-s1-blog
+        cname: charlie-marshak.net
+
+    - name: Deploy to GitHub Pages (dev branch)
+      if: github.ref == 'refs/heads/dev'
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        external_repository: OPERA-Cal-Val/OPERA-Cal-Val.github.io
+        publish_branch: gh-pages
+        publish_dir: ./public
+        destination_dir: dist-s1-blog/test

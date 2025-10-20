@@ -1,0 +1,23 @@
+# OS Files
+**/.DS_Store
+**/.DS_Store?
+
+# vscode
+.vscode
+
+# env file
+.env
+
+# Vim files
+*.sw[mnop]
+
+# Claude
+.claude/
+
+# Hugo
+.hugo_build.lock
+public/
+resources/_gen/
+demo/
+.hugo/*
+!.hugo/version
