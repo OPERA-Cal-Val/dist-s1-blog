@@ -49,7 +49,6 @@ jobs:
         publish_branch: gh-pages
         publish_dir: ./public
         destination_dir: dist-s1-blog
-        cname: charlie-marshak.net
 
     - name: Deploy to GitHub Pages (dev branch)
       if: github.ref == 'refs/heads/dev'
