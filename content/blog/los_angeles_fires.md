@@ -41,8 +41,9 @@ Some notes about the product:
     maxZoom: 19
   });
 
-  // Load PMTiles
-  const pmtilesUrl = '/map_data/los_angeles/los_angeles_2025.pmtiles';
+  // Load PMTiles - construct path based on current page URL
+  const pathPrefix = window.location.pathname.includes('/dist-s1-blog/') ? '/dist-s1-blog' : '';
+  const pmtilesUrl = `${pathPrefix}/map_data/los_angeles/los_angeles_2025.pmtiles`;
   const p = new pmtiles.PMTiles(pmtilesUrl);
 
   // Debug: Check if PMTiles loads
@@ -95,7 +96,7 @@ Some notes about the product:
   pmtilesLayer.addTo(map);
 
   // Load and add GeoJSON layer
-  const geojsonResponse = await fetch('/map_data/los_angeles/los_angeles_fires.geojson');
+  const geojsonResponse = await fetch(`${pathPrefix}/map_data/los_angeles/los_angeles_fires.geojson`);
   const geojsonData = await geojsonResponse.json();
 
   const geojsonLayer = L.geoJSON(geojsonData, {
