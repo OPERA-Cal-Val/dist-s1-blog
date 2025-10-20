@@ -44,7 +44,7 @@ jobs:
       if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v4
       with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        personal_token: ${{ secrets.OPERA_PST_GITHUB_TOKEN }}
         external_repository: OPERA-Cal-Val/OPERA-Cal-Val.github.io
         publish_branch: gh-pages
         publish_dir: ./public
@@ -54,7 +54,7 @@ jobs:
       if: github.ref == 'refs/heads/dev'
       uses: peaceiris/actions-gh-pages@v4
       with:
-        personal_token: ${{ secrets.PERSONAL_TOKEN }}
+        personal_token: ${{ secrets.OPERA_PST_GITHUB_TOKEN }}
         external_repository: OPERA-Cal-Val/OPERA-Cal-Val.github.io
         publish_branch: gh-pages
         publish_dir: ./public
