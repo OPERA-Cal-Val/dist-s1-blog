@@ -2,8 +2,8 @@
 
 This is the repository for publishing the informal dist-s1 blog.
 
-Main blog: https://opera-cal-val.github.io/dist-s1-blog/
-Test blog: https://opera-cal-val.github.io/dist-s1-blog/test/
+- Main blog: https://opera-cal-val.github.io/dist-s1-blog/
+- Test blog: https://opera-cal-val.github.io/dist-s1-blog/test/
 
 ## Installation
 
@@ -26,3 +26,7 @@ Everything is public, but the test site makes sure things work first.
 
 It's probably easiest to include data directly in the repository.
 See the sample blog posts for examples.
+
+To create a single file capable of multiple zoom layers that can be integrated into leaflet see here: https://github.com/OPERA-Cal-Val/dist-s1-research/blob/dev/marshak/Xc_pmtiles/pm_tiles.ipynb
+
+Note we converted a geotiff with a colorbar to RGB (3 channel) image and then to the pmtile format.
