@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blog on OPERA DIST-S1 Blog</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/blog/</link><description>Recent content in Blog on OPERA DIST-S1 Blog</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Copyright © 2025, NASA JPL/Caltech</copyright><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://opera-cal-val.github.io/dist-s1-blog/test/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Comparing Validation</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</guid><description>&lt;p&gt;The sites have different types of disturbances and we can compare the HLS and S1 delineated disturbances.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blog on OPERA DIST-S1 Blog</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/blog/</link><description>Recent content in Blog on OPERA DIST-S1 Blog</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Copyright © 2025, NASA JPL/Caltech</copyright><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://opera-cal-val.github.io/dist-s1-blog/test/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Comparing DIST-HLS and DIST-S1</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</guid><description>&lt;p&gt;The sites have different types of disturbances and we can compare the DIST-HLS and DIS-S1 disturbances. Use the drop down menu to explore different sites.&lt;/p&gt;
 
 
  &lt;style&gt;
@@ -12,7 +12,7 @@
  id="gee-app-frame"
  src="https://opera-one.projects.earthengine.app/view/dist-s1-sample-explorer"
  allowfullscreen&gt;
- &lt;/iframe&gt;</description><content:encoded><![CDATA[<p>The sites have different types of disturbances and we can compare the HLS and S1 delineated disturbances.</p>
+ &lt;/iframe&gt;</description><content:encoded><![CDATA[<p>The sites have different types of disturbances and we can compare the DIST-HLS and DIS-S1 disturbances. Use the drop down menu to explore different sites.</p>
 
 
   <style>
