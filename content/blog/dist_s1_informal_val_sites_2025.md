@@ -7,7 +7,14 @@ description = "Comparing DIST-HLS and DIST-S1"
 
 The sites have different types of disturbances and we can compare the HLS and S1 delineated disturbances.
 
-{{< /rawhtml >}}
+{{< rawhtml >}}
+  <style>
+    #gee-app-frame {
+      width: 1600px;
+      height: 1200px;
+      border: none;
+    }
+  </style>
   <iframe
         id="gee-app-frame"
         src="https://opera-one.projects.earthengine.app/view/dist-s1-sample-explorer"
