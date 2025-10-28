@@ -37,6 +37,7 @@
 &lt;li&gt;We still need to provide some information on the color-coding (it&amp;rsquo;s not straightforward to do this in leaflet) - for now, we just are going to note it matches DIST-HLS&amp;rsquo;s colorbar (see &lt;a href="https://glad.earthengine.app/view/dist-alert#lon=-118.41608925455033;lat=34.13252521035229;zoom=11;"&gt;here&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;Previously, we had better results over Eaton, we are looking into this.&lt;/li&gt;
 &lt;li&gt;All these products are unvalidated!&lt;/li&gt;
+&lt;li&gt;Last week, we found a bug in confirmation making the fire perimeters more conservative than they should be - this will be updated.&lt;/li&gt;
 &lt;/ul&gt;
 
 
@@ -162,6 +163,7 @@
 <li>We still need to provide some information on the color-coding (it&rsquo;s not straightforward to do this in leaflet) - for now, we just are going to note it matches DIST-HLS&rsquo;s colorbar (see <a href="https://glad.earthengine.app/view/dist-alert#lon=-118.41608925455033;lat=34.13252521035229;zoom=11;">here</a>)</li>
 <li>Previously, we had better results over Eaton, we are looking into this.</li>
 <li>All these products are unvalidated!</li>
+<li>Last week, we found a bug in confirmation making the fire perimeters more conservative than they should be - this will be updated.</li>
 </ul>
 
 
