@@ -14,7 +14,8 @@ This is the repository for publishing the informal dist-s1 blog.
 
 ## Usage
 
-Once hugo is installed, view the site locally with `hugo serve`.
+Clone this repo (i.e. `git clone ...`) and then make sure the submodule is correctly installed via `git submodule update --init --recursive --checkout`.
+With the repository cloned and the submodule (which manages the hugo theme) correctly pulled, view the site locally with `hugo serve`.
 
 ## Contributing
 
