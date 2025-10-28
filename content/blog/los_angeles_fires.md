@@ -17,6 +17,7 @@ Some notes about the product:
 - We still need to provide some information on the color-coding (it's not straightforward to do this in leaflet) - for now, we just are going to note it matches DIST-HLS's colorbar (see [here](https://glad.earthengine.app/view/dist-alert#lon=-118.41608925455033;lat=34.13252521035229;zoom=11;))
 - Previously, we had better results over Eaton, we are looking into this.
 - All these products are unvalidated!
+- Last week, we found a bug in confirmation making the fire perimeters more conservative than they should be - this will be updated.
 
 
 {{< rawhtml >}}
