@@ -1,4 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>OPERA DIST-S1 Blog</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/</link><description>Recent content on OPERA DIST-S1 Blog</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Copyright © 2025, NASA JPL/Caltech</copyright><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://opera-cal-val.github.io/dist-s1-blog/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Comparing DIST-HLS and DIST-S1</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</guid><description>&lt;p&gt;The sites have different types of disturbances and we can compare the DIST-HLS and DIS-S1 disturbances. Use the drop down menu to explore different sites.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>OPERA DIST-S1 Blog</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/</link><description>Recent content on OPERA DIST-S1 Blog</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><copyright>Copyright © 2025, NASA JPL/Caltech</copyright><lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://opera-cal-val.github.io/dist-s1-blog/test/index.xml" rel="self" type="application/rss+xml"/><item><title>Tornado Tracks 2025 - preliminary take</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/blog/tornado_tracks/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://opera-cal-val.github.io/dist-s1-blog/test/blog/tornado_tracks/</guid><description>&lt;p&gt;Tornado track visible in MGRS tile 16SGG on 2025-07-23.&lt;/p&gt;
+&lt;p&gt;Examine this observation interactively on GEE &lt;a href="https://code.earthengine.google.com/dd60c27ccc7b378f5195205c06505f56"&gt;link&lt;/a&gt;.
+Select the last tile (16SGG) from the tile pulldown and
+zoom into the lower left area.
+The images below show different layers from the GEE page.
+The first image is an optical view showing the tornado track as
+an obvious color shift where the Daniel Boone national forest was
+severely damaged.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://opera-cal-val.github.io/dist-s1-blog/test/blog/tornado_tracks/hls1.png" alt="image"&gt;&lt;/p&gt;
+&lt;p&gt;The image below shows the Sentinel 1 radar image using VV polarization.
+The tornado track is not obvious.
+Close examination shows some subtle textural change along the track.&lt;/p&gt;</description><content:encoded><![CDATA[<p>Tornado track visible in MGRS tile 16SGG on 2025-07-23.</p>
+<p>Examine this observation interactively on GEE <a href="https://code.earthengine.google.com/dd60c27ccc7b378f5195205c06505f56">link</a>.
+Select the last tile (16SGG) from the tile pulldown and
+zoom into the lower left area.
+The images below show different layers from the GEE page.
+The first image is an optical view showing the tornado track as
+an obvious color shift where the Daniel Boone national forest was
+severely damaged.</p>
+<p><img src="/dist-s1-blog/test/blog/tornado_tracks/hls1.png" alt="image"></p>
+<p>The image below shows the Sentinel 1 radar image using VV polarization.
+The tornado track is not obvious.
+Close examination shows some subtle textural change along the track.</p>
+<p><img src="/dist-s1-blog/test/blog/tornado_tracks/s1obs.png" alt="image"></p>
+<p>The image below shows the Sentinel 1 VV radar image after subtracting off
+a historical baseline in dB terms.
+The track shows more clearly but still subtle as
+a textural change.</p>
+<p><img src="/dist-s1-blog/test/blog/tornado_tracks/s1obs_rel.png" alt="image"></p>
+<p>The image below shows the corresponding Dist-S1 status labels.
+The tornado track shows up sparsely.</p>
+<p><img src="/dist-s1-blog/test/blog/tornado_tracks/s1status.png" alt="image"></p>
+<p>Radar sees the tornado path less clearly than optical.
+The tornado caused extensive damage to the forest, but the actual
+density of scattering centers seems to be more re-arranged rather
+than reduced.</p>
+]]></content:encoded></item><item><title>Comparing DIST-HLS and DIST-S1</title><link>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://opera-cal-val.github.io/dist-s1-blog/test/blog/dist_s1_informal_val_sites_2025/</guid><description>&lt;p&gt;The sites have different types of disturbances and we can compare the DIST-HLS and DIS-S1 disturbances. Use the drop down menu to explore different sites.&lt;/p&gt;
 
 
  &lt;style&gt;
